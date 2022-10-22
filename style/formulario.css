@@ -1,0 +1,41 @@
+input[type=text] {
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  /*encaje una figura en el cuadro*/
+  border: 1px solid rebeccapurple;
+  border-radius: 4px;
+  background-image: url(https://cdn-icons-png.flaticon.com/512/1077/1077063.png);
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  background-size: 4%;
+  padding-left: 35px;
+  /*tipo de forma*/
+  transition: width 0.4s aese-in-out;
+}
+
+input[type=password] {
+  border: none;
+  border-bottom: 2px solid rgb(43, 226, 186);
+}
+
+#comentario {
+  background-color: red;
+}
+
+input[type=text]:focus {
+  /* background-color: aqua;
+  border: 3px solid gold; */
+  width: 100%;
+}
+
+input[type=submit],
+input[type=button],
+input[type=reset] {
+  background-color: bisque;
+  border: none;
+  color: blue;
+  padding: 10px;
+  cursor: pointer;
+}
